@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Arch Master — Support</title>
+  <meta name="description" content="Answers to common questions about Arch Master, the viewer for ArchiMate models on iPhone, iPad and Mac, and how to get in touch." />
+  <meta name="theme-color" content="#b4471a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+
+<body>
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="brand" href="marketing.html"><img src="assets/icon.png" alt="" /><span>Arch Master</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="marketing.html">Overview</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="group">
+      <div class="group-tab" aria-hidden="true">Support</div>
+      <div class="group-body">
+        <div class="group-main">
+          <picture>
+            <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="assets/icon.png" width="76" height="76" alt="Arch Master app icon" />
+          </picture>
+          <div>
+            <h1>Arch Master Support</h1>
+            <p>A native viewer for ArchiMate® models on iPhone, iPad and Mac. Answers to common
+              questions are below; if yours is not here, <a href="#contact">write to us</a>.</p>
+          </div>
+        </div>
+        <div class="group-layers" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <ul class="toc">
+        <li><a href="#what">What is Arch Master?</a></li>
+        <li><a href="#open">How do I open a model?</a></li>
+        <li><a href="#formats">Which files does it open?</a></li>
+        <li><a href="#canvas">How do I move around a view?</a></li>
+        <li><a href="#views">How do I switch between views?</a></li>
+        <li><a href="#inspector">Where do I see documentation and relationships?</a></li>
+        <li><a href="#browser">How do I browse the whole model?</a></li>
+        <li><a href="#search">How do I find an element?</a></li>
+        <li><a href="#keyboard">Keyboard shortcuts</a></li>
+        <li><a href="#export">Export and print</a></li>
+        <li><a href="#colours">Why do the colours differ from Archi?</a></li>
+        <li><a href="#placeholders">Some shapes are dashed. Why?</a></li>
+        <li><a href="#not-shown">What is not shown yet?</a></li>
+        <li><a href="#edit">Can I edit a model?</a></li>
+        <li><a href="#files">Where are my files stored?</a></li>
+        <li><a href="#settings">Settings, themes and language</a></li>
+        <li><a href="#requirements">System requirements</a></li>
+        <li><a href="#contact">Contact and feedback</a></li>
+      </ul>
+    </div>
+
+    <h2 class="label">Getting started</h2>
+
+    <div class="card" id="what">
+      <h3>What is Arch Master?</h3>
+      <p>
+        A viewer for enterprise architecture models in ArchiMate®, the modelling language
+        published by The Open Group. It opens the models you keep in Archi or export from other
+        modelling tools and draws every view the way the specification draws it, so you can
+        walk through a model in a meeting, on the go or at your desk. The app is written
+        natively for Apple platforms: there is no web view inside it, and it needs no account
+        and no internet connection.
+      </p>
+    </div>
+
+    <div class="card" id="open">
+      <h3>How do I open a model?</h3>
+      <p>
+        On iPhone and iPad, launch Arch Master and choose the file in the document browser — in
+        Recents, iCloud Drive or <strong>On My iPhone (or iPad) → Arch Master</strong> — or tap
+        the file in the Files app. On Mac, double-click the file in Finder, or choose File →
+        Open. The model opens on its first view.
+      </p>
+    </div>
+
+    <div class="card" id="formats">
+      <h3>Which files does it open?</h3>
+      <ul>
+        <li><strong>Archi models (.archimate)</strong> — the plain XML file, and the zip archive
+          Archi writes when a model contains images.</li>
+        <li><strong>Open Group Exchange files (.xml)</strong> — the ArchiMate Model Exchange
+          File Format that many modelling tools export.</li>
+      </ul>
+      <p>
+        ArchiMate 3.1 and 3.2, with every element and relationship, junctions, specializations
+        (Archi profiles), documentation and properties. The format is recognised from the
+        content, not the extension. In Exchange files with names in several languages, names
+        follow the interface language.
+      </p>
+    </div>
+
+    <h2 class="label">Exploring a model</h2>
+
+    <div class="card" id="canvas">
+      <h3>How do I move around a view?</h3>
+      <p>
+        Drag anywhere to pan, and pinch to zoom; on Mac, scroll to move and hold
+        <kbd>⌘</kbd> while scrolling to zoom. The zoom controls in the bottom-right corner have
+        − and +, a fit button, and preset zoom levels behind the percentage. The minimap in the
+        corner shows the whole view — drag inside it to move. The <strong>“…”</strong> menu has
+        <strong>Fit to View</strong>, <strong>Zoom to Selection</strong> and switches for the
+        grid and the minimap.
+      </p>
+      <p>
+        Click or tap a shape to select it: its connections light up in the accent colour.
+        Double-click or double-tap a shape to zoom to it.
+      </p>
+    </div>
+
+    <div class="card" id="views">
+      <h3>How do I switch between views?</h3>
+      <p>
+        The view switcher at the top of the canvas lists every view by folder. On iPad and Mac,
+        the <strong>Views</strong> tab of the sidebar lists them too, with their viewpoints.
+        Double-click or double-tap a view reference to open the view it points to. The back and
+        forward arrows beside the view switcher walk through the views you opened
+        (<kbd>⌘</kbd><kbd>[</kbd> and <kbd>⌘</kbd><kbd>]</kbd> with a keyboard).
+      </p>
+    </div>
+
+    <div class="card" id="inspector">
+      <h3>Where do I see documentation and relationships?</h3>
+      <p>
+        In <strong>Properties</strong>, the inspector. On iPad and Mac it is the panel on the
+        right, shown and hidden with the right-hand panel button in the toolbar; on iPhone, the
+        same button opens it as a sheet. For a selected element it shows:
+      </p>
+      <ul>
+        <li>its type, layer, specialization and identifier;</li>
+        <li>its documentation and properties;</li>
+        <li>every incoming and outgoing relationship — tap one to go to the element at its other
+          end;</li>
+        <li>every view it appears on — tap one to open that view with the element selected.</li>
+      </ul>
+      <p>
+        A relationship shows its ends, access type, influence strength and direction. Groups,
+        notes and view references have their own pages, and with nothing selected Properties
+        describes the view and the model.
+      </p>
+    </div>
+
+    <div class="card" id="browser">
+      <h3>How do I browse the whole model?</h3>
+      <p>
+        Open the <strong>Model Browser</strong> with the left-hand panel button in the toolbar:
+        on iPad and Mac it is the sidebar, on iPhone a sheet. <strong>Views</strong> lists every
+        view by folder. <strong>Model</strong> is a tree by layer — Strategy, Business,
+        Application, Technology, Physical, Motivation, Implementation &amp; Migration and Other
+        — then by element type, with relationships grouped by type. The field at the top
+        filters both by name.
+      </p>
+    </div>
+
+    <div class="card" id="search">
+      <h3>How do I find an element?</h3>
+      <p>
+        <strong>Find Element</strong> (<kbd>⌘</kbd><kbd>F</kbd>) finds shapes on the current
+        view by name or ID and steps through them in reading order. The <strong>Command
+        Palette</strong> (<kbd>⌘</kbd><kbd>K</kbd>) searches the whole model — every view,
+        element and relationship by name, ID, property or documentation — and jumps to the
+        result, opening the first view that shows it when it is not on the current one. It also
+        runs any command. On iPhone and iPad both are in the <strong>“…”</strong> menu.
+      </p>
+    </div>
+
+    <div class="card" id="keyboard">
+      <h3>Are there keyboard shortcuts?</h3>
+      <p>
+        Yes, on Mac and on iPad with a keyboard: <kbd>⌘</kbd><kbd>K</kbd> command palette,
+        <kbd>⌘</kbd><kbd>F</kbd> find, <kbd>⌘</kbd><kbd>[</kbd> and <kbd>⌘</kbd><kbd>]</kbd>
+        back and forward, <kbd>⌘</kbd><kbd>+</kbd> and <kbd>⌘</kbd><kbd>−</kbd> zoom,
+        <kbd>⌘</kbd><kbd>0</kbd> actual size, <kbd>⌘</kbd><kbd>9</kbd> fit to view,
+        <kbd>⌘</kbd><kbd>3</kbd> zoom to selection and <kbd>⌘</kbd><kbd>P</kbd> print. The
+        full list is on the Keyboard page in Settings.
+      </p>
+    </div>
+
+    <h2 class="label">Files and sharing</h2>
+
+    <div class="card" id="export">
+      <h3>How do I export or print a view?</h3>
+      <p>
+        On iPhone and iPad, open <strong>Export</strong> in the <strong>“…”</strong> menu; on
+        Mac, use the Export button in the toolbar or File → Export. You can export the current
+        view as PNG or as a vector PDF with selectable text, or every view as one PDF with a
+        page per view. <strong>Print</strong> is next to them (<kbd>⌘</kbd><kbd>P</kbd>).
+        Exports and printouts always use the light paper look, without the selection, whichever
+        theme you use on screen.
+      </p>
+    </div>
+
+    <div class="card" id="colours">
+      <h3>Why do the colours differ from Archi?</h3>
+      <p>
+        Shapes are filled with the layer colours of the app's theme — yellow business, blue
+        application, green technology — tuned to its warm palette. The standard Archi colours
+        always follow the theme, while colours someone chose on purpose, such as a red line or
+        a highlighted box, are kept. To ignore the file's colours entirely, turn off
+        <strong>Use colours from the file</strong> in Settings → Canvas.
+      </p>
+    </div>
+
+    <div class="card" id="placeholders">
+      <h3>Some shapes are drawn with a dashed outline. Why?</h3>
+      <p>
+        The file refers to an element that is not in it, or to an element type the app does
+        not know. Rather than refuse the file, Arch Master opens the rest of the model and
+        draws what is missing as a dashed placeholder. A file that is not an ArchiMate model at
+        all gets a plain explanation instead of a generic error.
+      </p>
+    </div>
+
+    <div class="card" id="not-shown">
+      <h3>What is not shown yet?</h3>
+      <p>
+        Images embedded in Archi archives, and Archi's sketch and canvas views, whose shapes are
+        shown as plain notes. The rest of such a model opens as usual.
+      </p>
+    </div>
+
+    <div class="card" id="edit">
+      <h3>Can I edit a model?</h3>
+      <p>
+        No. Arch Master is a viewer: it opens and presents models and never changes the file.
+        Edit the model in Archi or the modelling tool you use, save it, and open it again in
+        Arch Master.
+      </p>
+    </div>
+
+    <div class="card" id="files">
+      <h3>Where are my files stored?</h3>
+      <p>
+        Wherever you keep them. Arch Master uses the system file browser — Files on iPhone and
+        iPad, Finder on Mac — including iCloud Drive and any other provider you have connected.
+        On iPhone and iPad, the app's own folder is under <strong>Browse → On My iPhone (or
+        iPad) → Arch Master</strong>.
+      </p>
+    </div>
+
+    <h2 class="label">Settings</h2>
+
+    <div class="card" id="settings">
+      <h3>Where is Settings, and what is in it?</h3>
+      <p>
+        On iPhone and iPad, in the <strong>“…”</strong> toolbar menu; on Mac, choose Arch Master
+        → Settings or press <kbd>⌘</kbd><kbd>,</kbd>. It has four pages:
+      </p>
+      <ul>
+        <li><strong>General</strong> — appearance and interface language</li>
+        <li><strong>Canvas</strong> — dots, lines or a plain background, the minimap, colours
+          from the file, shadows under shapes</li>
+        <li><strong>Keyboard</strong> — every shortcut</li>
+        <li><strong>About</strong> — version, build and a link to the ArchiMate specification</li>
+      </ul>
+    </div>
+
+    <div class="card" id="themes">
+      <h3>How do I change the theme?</h3>
+      <p>
+        In Settings → General → <strong>Appearance</strong>. <strong>Terracotta</strong>, the
+        default, uses the colours of the app icon; <strong>Light</strong> is the bright paper
+        look; <strong>Dark</strong> is espresso with cream lines. The change applies at once.
+      </p>
+    </div>
+
+    <div class="card" id="language">
+      <h3>Can I change the language?</h3>
+      <p>
+        Yes. The app is available in English, German, French, Ukrainian, Spanish, Japanese and
+        Portuguese, with ArchiMate terms in the established words of each language. By default
+        it follows your device language, falling back to English; you can change it in Settings
+        → General, and it applies immediately without a restart. Names and documentation from
+        the model are always shown as written.
+      </p>
+    </div>
+
+    <h2 class="label">About the app</h2>
+
+    <div class="card" id="offline">
+      <h3>Does it need an internet connection?</h3>
+      <p>
+        No. The app works entirely offline, makes no network requests and collects no data.
+        See the <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <div class="card" id="requirements">
+      <h3>System requirements</h3>
+      <p>
+        iPhone with iOS 18 or later, iPad with iPadOS 18 or later, or a Mac with macOS 15 or
+        later.
+      </p>
+    </div>
+
+    <div class="card short" id="contact">
+      <h3>Contact and feedback</h3>
+      <p>
+        Didn't find your answer, found a model that renders wrongly, or missing something you
+        need? Write to us — we read everything, and a sample .archimate or .xml file attached to
+        your message helps enormously.
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:volodymyr.sichka@gmail.com?subject=Arch%20Master%20support">volodymyr.sichka@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <nav aria-label="Footer">
+      <a href="marketing.html">Overview</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <p class="motto">The whole architecture, one view at a time.</p>
+    <p>© 2026 Volodymyr Sichka</p>
+    <p class="legal">ArchiMate® is a registered trademark of The Open Group. Arch Master is not
+      affiliated with or endorsed by The Open Group.</p>
+  </footer>
+</body>
+
+</html>

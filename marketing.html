@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Arch Master — a viewer for ArchiMate® models on iPhone, iPad and Mac</title>
+  <meta name="description"
+    content="Arch Master opens ArchiMate models from Archi and other modelling tools on iPhone, iPad and Mac. Every view drawn to the spec, every relationship a tap away." />
+  <meta name="theme-color" content="#b4471a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Arch Master — your architecture on iPhone, iPad and Mac" />
+  <meta property="og:description"
+    content="A native viewer for ArchiMate models. Every view drawn to the spec, every relationship a tap away." />
+  <meta property="og:image" content="https://vybgss.github.io/arch-master-docs/assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+
+<body>
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="brand" href="marketing.html"><img src="assets/icon.png" alt="" /><span>Arch Master</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="marketing.html" aria-current="page">Overview</a>
+        <a href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <!-- A fragment of a layered view as the app draws it: an actor assigned to a business
+             process that an application service serves. -->
+        <svg class="flow" viewBox="0 0 228 64" role="img" aria-label="A business actor assigned to a business process, served by an application service">
+          <rect x="1" y="1" width="226" height="62" rx="31" style="fill: var(--card); stroke: var(--hairline)" />
+          <g class="shape-ink" fill="none" stroke-width="2.2" stroke-linecap="round">
+            <circle cx="27" cy="20" r="5" class="fill-business" />
+            <path d="M27 25 V37 M20 29.5 H34 M27 37 L21 46 M27 37 L33 46" />
+          </g>
+          <circle cx="41" cy="32" r="2.6" style="fill: var(--muted)" />
+          <line x1="41" y1="32" x2="60" y2="32" style="stroke: var(--muted)" stroke-width="2" />
+          <polygon points="59,28 66,32 59,36" style="fill: var(--muted)" />
+          <polygon points="70,21 103,21 103,15 117,32 103,49 103,43 70,43" class="fill-business shape-ink"
+            stroke-width="2.4" stroke-linejoin="round" />
+          <line x1="125" y1="32" x2="157" y2="32" style="stroke: var(--muted)" stroke-width="2" />
+          <path d="M131 27 L124 32 L131 37" fill="none" style="stroke: var(--muted)" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round" />
+          <rect x="159" y="20" width="54" height="24" rx="12" class="fill-application shape-ink" stroke-width="2.4" />
+        </svg>
+
+        <p class="kicker">Enterprise architecture viewer</p>
+        <h1>ArchiMate® models, native on iPhone, iPad and Mac</h1>
+        <p class="lede">
+          Open the models you keep in Archi or export from other modelling tools, and walk
+          through every view, element and relationship — in a meeting, on the go or at your
+          desk.
+        </p>
+        <div class="actions">
+          <!-- Becomes a link to the App Store page once the app is out. -->
+          <span class="button primary">Coming soon on the App Store</span>
+          <a class="button ghost" href="support.html">How it works</a>
+        </div>
+        <p class="requires">For iOS 18, iPadOS 18 and macOS 15 or later</p>
+
+        <img class="devices" src="assets/img/hero-devices.webp" width="1800" height="1112"
+          alt="Arch Master on iPad, MacBook, iPhone and iPhone Duo, showing the layered view and the business process of an example model with the inspector, in the Terracotta theme" />
+      </div>
+    </section>
+
+    <div class="wide">
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Notation</p>
+          <h2>Drawn the way the specification draws it</h2>
+          <p>
+            Every element in its layer colour, with square corners for structure, rounded for
+            behaviour and cut for motivation, and its icon in the corner.
+          </p>
+          <ul class="layered">
+            <li>The figures Archi offers instead: the actor, the service capsule, the 3D node and more</li>
+            <li>Exact lines and ends for every relationship, access in the direction data moves</li>
+            <li>Groups, notes, nested elements, junctions, bendpoints and the file's own colours</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="tablet" src="assets/img/ipad-notation.webp" width="860" height="1102" loading="lazy"
+            alt="iPad showing a reference view with every ArchiMate element type, from strategy to implementation and migration" />
+        </div>
+      </section>
+
+      <section class="feature flip">
+        <div class="feature-text">
+          <p class="label">Inspector</p>
+          <h2>Every relationship, a tap away</h2>
+          <p>
+            Select a shape and its connections light up. Properties shows what the element is
+            and everything it touches, across the whole model.
+          </p>
+          <ul class="layered">
+            <li>Type, layer, specialization, documentation and properties</li>
+            <li>Every incoming and outgoing relationship — tap one to go to the other end</li>
+            <li>Every view the element appears on — tap one to open it with the element selected</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="phone" src="assets/img/phone-inspect.webp" width="640" height="1237" loading="lazy"
+            alt="iPhone showing the Order Management application component selected, with its properties and relationships in a sheet" />
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Made for Mac</p>
+          <h2>Any element or view is a <kbd>⌘</kbd><kbd>K</kbd> away</h2>
+          <p>
+            One search field for every view, element and relationship of the model — by name,
+            ID, property or documentation — and every command.
+          </p>
+          <ul class="layered">
+            <li>Model browser, canvas and inspector side by side</li>
+            <li>Find on the view, back and forward, zoom presets and a minimap</li>
+            <li>Keyboard shortcuts, menus and printing</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="laptop" src="assets/img/mac-palette.webp" width="1278" height="797" loading="lazy"
+            alt="MacBook showing the command palette searching the model for roast" />
+        </div>
+      </section>
+
+      <section class="feature flip">
+        <div class="feature-text">
+          <p class="label">Model browser</p>
+          <h2>The whole model, layer by layer</h2>
+          <p>
+            Views by folder with their viewpoints, and every element in a tree by layer and
+            type, with its relationships grouped by type.
+          </p>
+          <ul class="layered">
+            <li>Strategy, Business, Application, Technology, Physical, Motivation, Implementation &amp; Migration</li>
+            <li>A filter that searches views and elements at once</li>
+            <li>Tap an element to select it on the view, or to see it in the inspector when it is drawn elsewhere</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="duo" src="assets/img/duo-browser.webp" width="700" height="947" loading="lazy"
+            alt="iPhone Duo showing the model browser with elements grouped by layer and type" />
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Three themes</p>
+          <h2>Terracotta, Light or Dark</h2>
+          <p>
+            Terracotta takes its colours from the app icon: a terracotta bar and a warm clay
+            canvas. Light is bright paper; Dark is espresso with cream lines.
+          </p>
+          <ul class="layered">
+            <li>Switch at any time in Settings — it applies instantly</li>
+            <li>Layer colours tuned to each theme</li>
+            <li>Exported images, PDFs and printouts always use the light paper look</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="phone" src="assets/img/phone-themes.webp" width="640" height="1237" loading="lazy"
+            alt="iPhone showing the same layered view split diagonally into the Terracotta, Light and Dark themes" />
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <p class="label">Everything in the file</p>
+          <h2>Your model, complete</h2>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M8 3 H21 L27 9 V31 H8 Z" class="shape-fill shape-ink" stroke-width="2.2"
+                stroke-linejoin="round" />
+              <path d="M21 3 V9 H27" fill="none" class="shape-ink" stroke-width="2.2" stroke-linejoin="round" />
+              <path d="M12 16 H23 M12 21 H23 M12 26 H19" class="shape-accent" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3>Archi and Exchange files</h3>
+            <p>Archi's .archimate models, including the archives it writes for models with
+              images, and Open Group Exchange files from other tools.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <rect x="3" y="6" width="28" height="22" rx="1" class="fill-application shape-ink" stroke-width="2.2" />
+              <rect x="19" y="10" width="9" height="8" rx="0.5" fill="none" class="shape-ink" stroke-width="1.6" />
+              <path d="M17.5 12 H21 M17.5 16 H21" class="shape-ink" stroke-width="1.6" />
+            </svg>
+            <h3>ArchiMate 3.1 and 3.2</h3>
+            <p>Every element and relationship, junctions, specializations, documentation and
+              properties, as the file describes them.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <rect x="3" y="7" width="28" height="20" rx="1" class="shape-fill shape-ink" stroke-width="2.2"
+                stroke-dasharray="4 3" />
+              <path d="M14 14 C14 10.5 20 10.5 20 14 C20 16.5 17 16.5 17 19 M17 22.5 V23" fill="none"
+                class="shape-accent" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3>Forgiving with real files</h3>
+            <p>A model with broken references or unknown types still opens: what is missing is
+              drawn as a dashed placeholder.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M4 4 H30 V26 C24 21.5 17 30.5 10 27 C7.5 25.8 5.5 25.8 4 26.6 Z" class="shape-fill shape-ink"
+                stroke-width="2.2" stroke-linejoin="round" />
+              <path d="M9 10 H25 M9 15 H21" class="shape-accent" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3>Share and print</h3>
+            <p>Export a view as PNG or vector PDF, or every view as one PDF with a page per view,
+              and print.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M11 15 V10.5 C11 3.5 23 3.5 23 10.5 V15" fill="none" class="shape-ink" stroke-width="2.4" />
+              <rect x="6" y="15" width="22" height="16" rx="3" class="shape-fill shape-ink" stroke-width="2.2" />
+              <path d="M17 21 V25" class="shape-accent" stroke-width="2.4" stroke-linecap="round" />
+            </svg>
+            <h3>Private and offline</h3>
+            <p>No account, no tracking, no network. Models are ordinary files in storage you
+              already use, and the app never changes them.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M9 27 C4 27 2.5 21 6.5 19 C5 13.5 11.5 10.5 15 14 C16 8 25.5 8 26 15 C31 15 32 22.5 27.5 24.5 C27 27 25 27 24 27 Z"
+                class="fill-business shape-ink" stroke-width="2.2" stroke-linejoin="round" />
+            </svg>
+            <h3>Seven languages</h3>
+            <p>English, German, French, Ukrainian, Spanish, Japanese and Portuguese, with
+              ArchiMate terms in each language's established words.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing">
+        <picture>
+          <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)" />
+          <img src="assets/icon.png" width="96" height="96" alt="Arch Master app icon" />
+        </picture>
+        <h2>Take the architecture with you</h2>
+        <p>One app for iPhone, iPad and Mac.</p>
+        <!-- Becomes a link to the App Store page once the app is out. -->
+        <span class="button solid">Coming soon on the App Store</span>
+      </section>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <nav aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:volodymyr.sichka@gmail.com">Contact</a>
+    </nav>
+    <p>© 2026 Volodymyr Sichka</p>
+    <p class="legal">ArchiMate® is a registered trademark of The Open Group. Arch Master is not
+      affiliated with or endorsed by The Open Group.</p>
+  </footer>
+</body>
+
+</html>
