@@ -95,6 +95,8 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  /* Anchors from the contents list land below the sticky bar, not under it. */
+  scroll-padding-top: 76px;
 }
 
 body {

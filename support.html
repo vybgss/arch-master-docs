@@ -8,8 +8,11 @@
   <meta name="description" content="Answers to common questions about Arch Master, the viewer for ArchiMate models on iPhone, iPad and Mac, and how to get in touch." />
   <meta name="theme-color" content="#b4471a" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)" />
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="assets/site.css" />
 </head>
 
@@ -54,7 +57,7 @@
         <li><a href="#inspector">Where do I see documentation and relationships?</a></li>
         <li><a href="#browser">How do I browse the whole model?</a></li>
         <li><a href="#search">How do I find an element?</a></li>
-        <li><a href="#keyboard">Keyboard shortcuts</a></li>
+        <li><a href="#keyboard">Are there keyboard shortcuts?</a></li>
         <li><a href="#export">Export and print</a></li>
         <li><a href="#colours">Why do the colours differ from Archi?</a></li>
         <li><a href="#placeholders">Some shapes are dashed. Why?</a></li>
@@ -62,6 +65,7 @@
         <li><a href="#edit">Can I edit a model?</a></li>
         <li><a href="#files">Where are my files stored?</a></li>
         <li><a href="#settings">Settings, themes and language</a></li>
+        <li><a href="#rating">Why did the app ask me for a rating?</a></li>
         <li><a href="#requirements">System requirements</a></li>
         <li><a href="#contact">Contact and feedback</a></li>
       </ul>
@@ -188,7 +192,8 @@
         <kbd>⌘</kbd><kbd>F</kbd> find, <kbd>⌘</kbd><kbd>[</kbd> and <kbd>⌘</kbd><kbd>]</kbd>
         back and forward, <kbd>⌘</kbd><kbd>+</kbd> and <kbd>⌘</kbd><kbd>−</kbd> zoom,
         <kbd>⌘</kbd><kbd>0</kbd> actual size, <kbd>⌘</kbd><kbd>9</kbd> fit to view,
-        <kbd>⌘</kbd><kbd>3</kbd> zoom to selection and <kbd>⌘</kbd><kbd>P</kbd> print. The
+        <kbd>⌘</kbd><kbd>3</kbd> zoom to selection, <kbd>⇧</kbd><kbd>⌘</kbd><kbd>E</kbd> export as
+        PNG and <kbd>⌘</kbd><kbd>P</kbd> print. The
         full list is on the Keyboard page in Settings.
       </p>
     </div>
@@ -286,9 +291,12 @@
       <p>
         Yes. The app is available in English, German, French, Ukrainian, Spanish, Japanese and
         Portuguese, with ArchiMate terms in the established words of each language. By default
-        it follows your device language, falling back to English; you can change it in Settings
-        → General, and it applies immediately without a restart. Names and documentation from
-        the model are always shown as written.
+        it follows your device language, falling back to English. To choose another, use
+        Settings → General in the app, or system settings: <strong>Settings → Apps → Arch Master
+        → Language</strong> on iPhone and iPad, <strong>System Settings → General → Language &amp;
+        Region → Applications</strong> on Mac. Both places change the same setting. The app's own
+        screens switch at once; the file browser, menus and system dialogs follow the next time
+        you open the app. Names and documentation from the model are always shown as written.
       </p>
     </div>
 
@@ -299,6 +307,18 @@
       <p>
         No. The app works entirely offline, makes no network requests and collects no data.
         See the <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <div class="card" id="rating">
+      <h3>Why did the app ask me for a rating?</h3>
+      <p>
+        Once you have used Arch Master for a while, it may show Apple's rating request right
+        after something worked — an export, a print, or a jump to another view of an element —
+        at most once per version, and never right after something failed. Apple decides whether
+        the request actually appears. To turn such requests off for all apps, go to
+        <strong>Settings → App Store → In-App Ratings &amp; Reviews</strong> on iPhone and iPad,
+        or <strong>App Store → Settings</strong> on Mac.
       </p>
     </div>
 
